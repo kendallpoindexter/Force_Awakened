@@ -14,6 +14,7 @@
 		EB5335212375EF7900776175 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB5335202375EF7900776175 /* Preview Assets.xcassets */; };
 		EB5335242375EF7900776175 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB5335222375EF7900776175 /* LaunchScreen.storyboard */; };
 		EB53352F2375EF7900776175 /* Project_Force_AwakenedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB53352E2375EF7900776175 /* Project_Force_AwakenedTests.swift */; };
+		EB53353B2375F27300776175 /* FilmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB53353A2375F27300776175 /* FilmModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		EB53352A2375EF7900776175 /* Project_Force_AwakenedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Project_Force_AwakenedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB53352E2375EF7900776175 /* Project_Force_AwakenedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_Force_AwakenedTests.swift; sourceTree = "<group>"; };
 		EB5335302375EF7900776175 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB53353A2375F27300776175 /* FilmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				EB53351D2375EF7900776175 /* Assets.xcassets */,
 				EB5335222375EF7900776175 /* LaunchScreen.storyboard */,
 				EB5335252375EF7900776175 /* Info.plist */,
+				EB5335392375F24F00776175 /* Models */,
 				EB53351F2375EF7900776175 /* Preview Content */,
 			);
 			path = Project_Force_Awakened;
@@ -105,6 +108,14 @@
 				EB5335302375EF7900776175 /* Info.plist */,
 			);
 			path = Project_Force_AwakenedTests;
+			sourceTree = "<group>";
+		};
+		EB5335392375F24F00776175 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EB53353A2375F27300776175 /* FilmModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,6 +222,7 @@
 				EB5335182375EF7600776175 /* AppDelegate.swift in Sources */,
 				EB53351A2375EF7600776175 /* SceneDelegate.swift in Sources */,
 				EB53351C2375EF7600776175 /* ContentView.swift in Sources */,
+				EB53353B2375F27300776175 /* FilmModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
