@@ -7,3 +7,21 @@
 //
 
 import Foundation
+
+struct Character {
+    let name: String
+    let birthYear: String
+    let gender: String
+    let homeworld: String
+    let species: [String]
+}
+
+extension Character {
+    enum CharacterCodingKeys: String, CodingKey {
+        case name
+        case birthYear = "birth_year"
+        case gender
+        case homeworld
+        case species
+    }
+}
