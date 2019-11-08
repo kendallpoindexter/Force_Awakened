@@ -7,3 +7,7 @@
 //
 
 import Foundation
+
+struct Species {
+    let name: String
+}
