@@ -13,7 +13,7 @@ struct Character {
     let birthYear: String
     let gender: String
     let homeworld: String
-    let species: [String]
+    let speciesURLStrings: [String]
 }
 
 extension Character {
@@ -22,6 +22,6 @@ extension Character {
         case birthYear = "birth_year"
         case gender
         case homeworld
-        case species
+        case speciesURLStrings = "species"
     }
 }
