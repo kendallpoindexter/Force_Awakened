@@ -16,6 +16,7 @@
 		EB53352F2375EF7900776175 /* Project_Force_AwakenedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB53352E2375EF7900776175 /* Project_Force_AwakenedTests.swift */; };
 		EB53353B2375F27300776175 /* FilmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB53353A2375F27300776175 /* FilmModel.swift */; };
 		EB53353D2375FCA200776175 /* CharacterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB53353C2375FCA200776175 /* CharacterModel.swift */; };
+		EB53353F2375FF2600776175 /* SpeciesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB53353E2375FF2600776175 /* SpeciesModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		EB5335302375EF7900776175 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB53353A2375F27300776175 /* FilmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmModel.swift; sourceTree = "<group>"; };
 		EB53353C2375FCA200776175 /* CharacterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterModel.swift; sourceTree = "<group>"; };
+		EB53353E2375FF2600776175 /* SpeciesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeciesModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 			children = (
 				EB53353A2375F27300776175 /* FilmModel.swift */,
 				EB53353C2375FCA200776175 /* CharacterModel.swift */,
+				EB53353E2375FF2600776175 /* SpeciesModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 				EB53353D2375FCA200776175 /* CharacterModel.swift in Sources */,
 				EB53351A2375EF7600776175 /* SceneDelegate.swift in Sources */,
 				EB53351C2375EF7600776175 /* ContentView.swift in Sources */,
+				EB53353F2375FF2600776175 /* SpeciesModel.swift in Sources */,
 				EB53353B2375F27300776175 /* FilmModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
