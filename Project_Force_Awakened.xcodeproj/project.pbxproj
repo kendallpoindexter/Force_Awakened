@@ -17,7 +17,9 @@
 		EB53353B2375F27300776175 /* FilmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB53353A2375F27300776175 /* FilmModel.swift */; };
 		EB53353D2375FCA200776175 /* CharacterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB53353C2375FCA200776175 /* CharacterModel.swift */; };
 		EB53353F2375FF2600776175 /* SpeciesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB53353E2375FF2600776175 /* SpeciesModel.swift */; };
-		EB533542237609F700776175 /* NetworkManager .swift in Sources */ = {isa = PBXBuildFile; fileRef = EB533541237609F700776175 /* NetworkManager .swift */; };
+		EB974200237DFA7900676405 /* PlanetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9741FF237DFA7900676405 /* PlanetModel.swift */; };
+		EB974203237DFBCB00676405 /* SWCharacterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB974202237DFBCB00676405 /* SWCharacterModel.swift */; };
+		EB974205237DFD5800676405 /* SWFilm.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB974204237DFD5800676405 /* SWFilm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +47,9 @@
 		EB53353A2375F27300776175 /* FilmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmModel.swift; sourceTree = "<group>"; };
 		EB53353C2375FCA200776175 /* CharacterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterModel.swift; sourceTree = "<group>"; };
 		EB53353E2375FF2600776175 /* SpeciesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeciesModel.swift; sourceTree = "<group>"; };
-		EB533541237609F700776175 /* NetworkManager .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NetworkManager .swift"; sourceTree = "<group>"; };
+		EB9741FF237DFA7900676405 /* PlanetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetModel.swift; sourceTree = "<group>"; };
+		EB974202237DFBCB00676405 /* SWCharacterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWCharacterModel.swift; sourceTree = "<group>"; };
+		EB974204237DFD5800676405 /* SWFilm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWFilm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +97,7 @@
 				EB53351D2375EF7900776175 /* Assets.xcassets */,
 				EB5335222375EF7900776175 /* LaunchScreen.storyboard */,
 				EB5335252375EF7900776175 /* Info.plist */,
-				EB533540237609C900776175 /* Networking  */,
+				EB974201237DFB6400676405 /* StarWarsModels */,
 				EB5335392375F24F00776175 /* APIModels */,
 				EB53351F2375EF7900776175 /* Preview Content */,
 			);
@@ -123,16 +127,18 @@
 				EB53353A2375F27300776175 /* FilmModel.swift */,
 				EB53353C2375FCA200776175 /* CharacterModel.swift */,
 				EB53353E2375FF2600776175 /* SpeciesModel.swift */,
+				EB9741FF237DFA7900676405 /* PlanetModel.swift */,
 			);
 			path = APIModels;
 			sourceTree = "<group>";
 		};
-		EB533540237609C900776175 /* Networking  */ = {
+		EB974201237DFB6400676405 /* StarWarsModels */ = {
 			isa = PBXGroup;
 			children = (
-				EB533541237609F700776175 /* NetworkManager .swift */,
+				EB974202237DFBCB00676405 /* SWCharacterModel.swift */,
+				EB974204237DFD5800676405 /* SWFilm.swift */,
 			);
-			path = "Networking ";
+			path = StarWarsModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,10 +242,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB974205237DFD5800676405 /* SWFilm.swift in Sources */,
 				EB5335182375EF7600776175 /* AppDelegate.swift in Sources */,
-				EB533542237609F700776175 /* NetworkManager .swift in Sources */,
+				EB974203237DFBCB00676405 /* SWCharacterModel.swift in Sources */,
 				EB53353D2375FCA200776175 /* CharacterModel.swift in Sources */,
 				EB53351A2375EF7600776175 /* SceneDelegate.swift in Sources */,
+				EB974200237DFA7900676405 /* PlanetModel.swift in Sources */,
 				EB53351C2375EF7600776175 /* ContentView.swift in Sources */,
 				EB53353F2375FF2600776175 /* SpeciesModel.swift in Sources */,
 				EB53353B2375F27300776175 /* FilmModel.swift in Sources */,
