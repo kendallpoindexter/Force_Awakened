@@ -8,12 +8,12 @@
 
 import Foundation
 
-struct Character {
+struct Character: Decodable {
     let name: String
     let birthYear: String
     let gender: String
     let homeworld: String
-    let speciesURLStrings: [String]
+    let species: [String]
 }
 
 extension Character {
@@ -22,6 +22,6 @@ extension Character {
         case birthYear = "birth_year"
         case gender
         case homeworld
-        case speciesURLStrings = "species"
+        case species
     }
 }
