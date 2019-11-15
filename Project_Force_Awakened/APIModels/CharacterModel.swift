@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Character: Decodable {
+struct APIcharacter: Decodable {
     let name: String
     let birthYear: String
     let gender: String
@@ -16,7 +16,7 @@ struct Character: Decodable {
     let species: [String]
 }
 
-extension Character {
+extension APIcharacter {
     enum CharacterCodingKeys: String, CodingKey {
         case name
         case birthYear = "birth_year"
