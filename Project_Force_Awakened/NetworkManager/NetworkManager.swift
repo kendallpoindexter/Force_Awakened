@@ -52,7 +52,7 @@ struct NetworkManager {
             }.then { character, species in
                 self.fetchPlanet(with: character.homeworld).map { (character, species, $0)}
             }.done { character, species, planet in
-                let swCharacter = SWCharacter(name: character.name, birthYear: character.birthYear, gender: character.gender, homeworld: planet.name, species: species)
+                let swCharacter = SWCharacter(name: character.name, gender: character.gender, homeworld: planet.name, species: species)
                 seal.fulfill(swCharacter)
             }.catch { error in
                 seal.reject(error)

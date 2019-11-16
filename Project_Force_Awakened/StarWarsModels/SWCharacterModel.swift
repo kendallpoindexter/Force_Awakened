@@ -10,14 +10,12 @@ import Foundation
 
 class SWCharacter {
     var name: String
-    var birthYear: String
     var gender: String
     var homeworld: String
     var species: [Species]
 
-    init(name: String, birthYear: String, gender: String, homeworld: String, species: [Species]) {
+    init(name: String, gender: String, homeworld: String, species: [Species]) {
         self.name = name
-        self.birthYear = birthYear
         self.gender = gender
         self.homeworld = homeworld
         self.species = species
